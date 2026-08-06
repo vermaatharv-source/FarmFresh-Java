@@ -1,4 +1,5 @@
 package com.farmfresh.model;
+import java.util.ArrayList;
 import java.util.List;
 
 public class Farmer extends User {
@@ -7,6 +8,7 @@ public class Farmer extends User {
 
     public Farmer(String id, String name, String email, String password, String productId) {
         super(id, name, email, password);
+        this.productIds = new ArrayList<>();
     }
     
     public void setProductid(List <String> productIds){
