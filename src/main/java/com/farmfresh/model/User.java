@@ -2,14 +2,14 @@ package com.farmfresh.model;
 
 public class User {
     // DATA MEMBERS: 
-    private int id;
+    private String id;
     private String name;
     private String email;
     private String password;
 
     // Setter Functions for Validating the values for the Data members
 
-    public void setId(int id){
+    public void setId(String id){
         this.id = id;
     }
 
@@ -27,7 +27,7 @@ public class User {
 
     // Getter Functions for Printing the values of Data members
     
-    public int getId(){
+    public String getId(){
         return this.id;
     }
 
@@ -43,7 +43,7 @@ public class User {
         return this.password;
     }
 
-    public User(int id, String name, String email, String password){
+    public User(String id, String name, String email, String password){
         this.id = id;
         this.name = name;
         this.email = email;
