@@ -6,7 +6,13 @@ public class User {
     private String name;
     private String email;
     private String password;
-
+    
+    public User(String id, String name, String email, String password){
+        this.id = id;
+        this.name = name;
+        this.email = email;
+        this.password = password;
+    }
     // Setter Functions for Validating the values for the Data members
 
     public void setId(String id){
@@ -41,13 +47,6 @@ public class User {
 
     public String getPassword(){
         return this.password;
-    }
-
-    public User(String id, String name, String email, String password){
-        this.id = id;
-        this.name = name;
-        this.email = email;
-        this.password = password;
     }
 
     public void displayMenu(){

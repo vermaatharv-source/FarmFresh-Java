@@ -8,7 +8,7 @@ public class Order {
     private int quantityOrdered;
     private String status;
 
-    public Order(String id, String consumerId, String productId, int quantityOrdered, String status) {
+    public Order(String id, String consumerId, String productId, int quantityOrdered, String status) { //CONSTRUCTOR FOR INITIALIZING THE ORDER CLASS
         this.id = id;
         this.consumerId = consumerId;
         this.productId = productId;

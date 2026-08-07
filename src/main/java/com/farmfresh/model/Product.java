@@ -20,11 +20,11 @@ public class Product {
 
     // Getters and Setters
 
-    public void setId(String id){
+    public void setId(String id){ //FUNCTION FOR SETTING THE ID OF THE PRODUCT
         this.id = id;
     }
 
-    public String getId(){
+    public String getId(){ //FUNCTION FOR PRINTING THE ID OF THE PRODUCT
         return this.id;
     }
 
