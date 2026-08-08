@@ -127,7 +127,7 @@ mvn compile exec:java
 | **Atharv Verma** | Models, MongoConnection, Build Setup |
 | **Shaurya Rai** | Farmer & Product Repositories, Product Service |
 | **Ayush** | Consumer & Order Repositories, Order Service |
-| **Retvij** | Main, Trending Service, Exceptions, Testing |
+| **Retvij Srivastav** | Main, Trending Service, Exceptions, Testing |
 
 </div>
 
